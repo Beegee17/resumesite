@@ -1,0 +1,19 @@
+@media screen and (max-width: 1280px) 
+{
+	body{  
+ background-color: white; 
+ font-size: 1em;
+ width: 900px;
+ margin: auto;
+	 
+}
+
+@media tv
+ {
+  background-color: white;
+}
+@media all and (orientation: portrait) 
+{
+  background-color: white;
+  font-size: 1em; 
+}

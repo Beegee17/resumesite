@@ -1,0 +1,96 @@
+header { 
+    text-align: center;
+    color: #333333; 
+ }
+html, body {
+      height: 100vh;
+      margin: 0;
+      padding 0;
+ }
+ div {
+     float: right;
+     width:90%;
+ }
+ h3{ 
+    color: #333333;
+    font-family: 'aganbold' , sans-serif, 
+  }
+ nav {
+    position: absolute;
+    background: black;
+    width: 200px;
+    height: 100%;
+
+ }
+ a {
+    color: white;
+ }
+ section {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    padding:  12px ;
+ }
+ .main-content {
+    height: 100%;
+    width: calc(100% - 200px);
+    float: right;
+ }
+@font-face {
+    font-family: 'aganlight';
+    src: url('agane_45_light-webfont.woff2') format('woff2'),
+         url('agane_45_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'agan_sregular';
+    src: url('agane_55_roman_sign-webfont.woff2') format('woff2'),
+         url('agane_55_roman_sign-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aganregular';
+    src: url('agane_55_roman-webfont.woff2') format('woff2'),
+         url('agane_55_roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'agan_sbold';
+    src: url('agane_65_bold_sign-webfont.woff2') format('woff2'),
+         url('agane_65_bold_sign-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aganbold';
+    src: url('agane_65_bold-webfont.woff2') format('woff2'),
+         url('agane_65_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'agan_sextra_bold';
+    src: url('agane_75_extra_bold_sign-webfont.woff2') format('woff2'),
+         url('agane_75_extra_bold_sign-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aganextra_bold';
+    src: url('agane_75_extra_bold-webfont.woff2') format('woff2'),
+         url('agane_75_extra_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
